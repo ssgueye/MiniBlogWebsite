@@ -1,0 +1,321 @@
+/*Page de Style CSS */
+@media all
+{
+
+  body
+  {
+    background-color: skyblue; 
+    width:auto;
+
+  }
+
+  header
+  {
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1712/Blue_dazzling_lines_dark_background_4K_HD_1366x768.jpg");
+     color: white;
+     width: auto;
+  }
+
+  .num
+  {
+    float: right;
+    width: auto;
+
+
+  }
+
+  nav
+  {
+    background-color: #181A1A;
+    color: white;
+    width: auto;
+  }
+
+  section
+  {
+    
+    background-color: #282A29;
+    color: white;
+    width: auto; 
+
+
+  }
+
+
+  aside
+  {
+    
+    text-align: left;
+    border: 2px black double;
+    width: auto;
+    background-color: #181A1A;
+    color: white;
+    width:400px;
+   
+
+  }
+  article
+  {
+    text-align: justify;
+    width: auto;
+    background-color: #282A29;
+    width:auto;
+    color : white;
+    
+  }
+
+  footer
+   {
+
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1712/Blue_dazzling_lines_dark_background_4K_HD_1366x768.jpg");
+    color: white;
+    width: auto;
+    text-align: center;
+    
+   }
+
+   em
+  {
+    font-style: italic; /*Les textes avec la balise em sont en italique*/
+  }
+
+  h1,h2,h3,h4,h5,h6
+  {
+    font-weight : bold; /*Les textes avec les titres seront en gras*/
+    color: brown;
+    
+  }
+
+  p
+  {
+    max-width: 100% ;
+  }
+
+   .art
+   {
+    border: 2px black double;
+   }
+   .copyright
+   {
+    color: white;
+    text-align: center;
+   }
+
+
+  #container
+  {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  /*Début CSS Menu du site*/
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+  .menu {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .menu * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .menu li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1em;
+    padding: 0;
+  }
+  .menu a {
+    padding: 0.5em 0.8em;
+    margin: 0.2em 0;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-decoration: none;
+  }
+  .menu a:before,
+  .menu a:after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+  }
+  .menu a:before {
+    left: 0;
+    top: 0;
+    border-left: 3px solid #c0392b;
+    border-top: 3px solid #c0392b;
+    -webkit-transform: translate(100%, 50%);
+    transform: translate(100%, 50%);
+  }
+  .menu a:after {
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid #c0392b;
+    border-bottom: 3px solid #c0392b;
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+  }
+  .menu a:hover,
+  .menu .current a {
+    color: #ffffff;
+  }
+  .menu a:hover:before,
+  .menu .current a:before,
+  .menu a:hover:after,
+  .menu .current a:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+  /*Fin CSS Menu du Site*/
+
+  .news
+  {
+    color: red;
+    border: 3px red double;
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  #inscription
+  {
+    border: 3px white double;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1712/Blue_dazzling_lines_dark_background_4K_HD_1366x768.jpg");
+    color: red;
+
+  }
+
+
+  #connexion
+  {
+    
+    width: auto;
+    height: auto;
+    border: 3px white double;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1712/Blue_dazzling_lines_dark_background_4K_HD_1366x768.jpg");
+  }
+
+  #connect
+  {
+    border-bottom: 3px solid #c0392b;
+    -webkit-transform: translate(10%, 10%);
+    transform: translate(10%, 10%);
+    float: left;
+
+  }
+
+  #inscrirelink
+  {
+    border-bottom: 3px solid #c0392b;
+    -webkit-transform: translate(10%, 10%);
+    transform: translate(10%, 10%);
+
+  }
+  input
+  {
+    padding: 2px;
+    border : 1px solid #CCC;
+    border-radius: 2px;
+    outline: none;
+  }
+
+  input:focus
+  {
+    border-color: rgba(82, 168, 236, 0.75);
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+  }
+
+  label
+  {
+    color: white;
+  }
+  textarea
+  {
+    width: 350px;
+    height: 300px;
+  }
+  .tooltip
+  {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 2px 4px;
+    border: 1px solid #555;
+    background-color: #CCC;
+    border-radius: 4px;
+    color: red;
+  }
+
+  #messages
+  {
+    color: green;
+  }
+
+  .news, .sect 
+  {
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    
+  }
+
+  .prg
+  {
+    width: auto;
+  }
+  img
+  {
+    max-width: 100%;
+    height:auto;
+  }
+
+  .datepub
+  {
+  	text-align: left;
+  }
+
+  .more, .WALLstreet
+  {
+    color: blue;
+    text-decoration:none;
+    position:relative;
+    padding:6px 0;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+
+  .a1
+  {
+    flex: 1;
+    text-align: center;
+  }
+
+
+  table
+  {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+
+  td
+  {
+  	border: 1px solid black;
+  }
+
+  caption
+  {
+  	caption-side: bottom;
+  }
+
+}
