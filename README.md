@@ -1,4 +1,4 @@
-# Description ?
+# Description 
 
 This is a mini blog project I did in my 3rd year of undergraduate studies.
 The project consisted in making a mini blog that also manages users.
